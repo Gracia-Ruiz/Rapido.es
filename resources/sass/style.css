@@ -1,0 +1,134 @@
+:root{
+  --main--color:#3C787E;
+  --seccondary--color:#D0CD94;
+  --accent--color:#241623;
+}
+.text-main{
+ color: var(--main--color);
+}
+.text-seccondary{
+  color: var(--seccondary--color) !important                                  ;
+ }
+.text-accent{
+  color: var(--accent--color);
+}
+.bg-main{
+  background-color: var(--main--color);
+}
+.bg-seccondary{
+  background-color: var(--seccondary--color)!important;
+}
+.bg-accent{
+  background-color: var(--accent--color);
+}
+.btn-seccondary{
+  color: var(--main--color) !important;
+  background-color: var(--seccondary--color) !important;
+}
+.btn-accent{
+   color: var(--seccondary--color) !important;
+   background-color: var(--accent--color)!important;
+}
+*{
+  font-family: 'Syne Mono', monospace;
+}
+body{
+  background-color: var(--main--color) !important;
+}
+h1,h2,h3,h4,h5,.h1,.h2,.h3,.h4,.h5{
+  font-family: 'IM Fell DW Pica', serif;
+}
+.bg-nav{
+  background-color: #3c787eab;
+}
+.logo:hover{
+  transform: translateX(30px);
+  transition: 0.1s ease-in-out;
+  color: var(--accent--color);
+}
+
+.links:hover{
+    transform: scale(1.2);
+    color: var(--main--color) !important;
+}
+.icon-link:hover{
+    transform: scale(1.2);
+    color: var(--accent--color) !important;
+}
+.btn-inserta{
+  position: relative;
+  overflow: hidden;
+}
+.btn-inserta{
+  position: relative;
+  overflow: hidden;
+}
+.btn-inserta::before{
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  transform: translateX(-340px);
+  height: 100%;
+  width: 100%;
+  background-color: #d0cd942d;
+  border-radius: 10px;
+  border-bottom: 3px solid var(--main--color);
+}
+.btn-inserta:hover::before{
+  transform: translateX(0);
+  transition: 0.5s ease-in-out;
+}
+.borde-bottom{
+  border-bottom: 2px solid var(--accent--color);
+}
+.borde-top{
+  border-top: 2px solid var(--accent--color);
+}
+.btn-cambio{
+    color:var(--accent--color);
+    border-color: transparent;
+}
+.btn-cambio:hover{
+    color: var(--seccondary--color);
+    background-color: var(--accent--color);
+}
+.menu-global{
+    min-width: 3rem !important;
+
+}
+.icon-banderas{
+    padding: 0.1rem 0.5rem !important;
+}
+.animation-title:hover{
+  animation: animation-title 0.2s ease-in-out;
+}
+@keyframes animation-title {
+  0%{
+    transform: translateX(0px);
+  }
+  50%{
+    transform: translateX(200px);
+  }
+  75%{
+    transform: translateX(-200px);
+  }
+  100%{
+    transform: translateX(200px);
+  }
+}
+.money{
+  transform: translateY(0px);
+  transition:1s;
+}
+.money-back{
+  transform: translateY(-100px);
+  opacity: 0;
+}
+.categoria:hover{
+   color: var(--accent--color)!important;
+}
+.compra-atras{
+  width: 100px;
+  height: 100px;
+}
