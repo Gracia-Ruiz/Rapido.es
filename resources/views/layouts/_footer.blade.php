@@ -1,5 +1,5 @@
-<div class="container-fluid bg-dark" style="min-height: 300px">
-    <footer class="row justify-content-between align-items-center border-top">
+<footer class="container-fluid bg-dark" style="min-height: 300px">
+    <div class="row justify-content-between align-items-center border-top">
       <div class="col-12 col-md-6 mt-4 d-flex flex-column align-items-center">
         <div class="text-center">
             <h5 class="text-center fs-4 text-seccondary links">{{__("RECIBE LAS NOVEDADES")}}</h5>
@@ -36,8 +36,8 @@
         </i>
     </div>
       <div class="text-center">
-        <a href="{{route('welcome')}}" class="fs-1 pt-3 text-decoration-none fst-italic text-seccondary links">RÁPIDO.ES</a>
+      <a href="{{route('welcome')}}" class="fs-1 pt-3 text-decoration-none fst-italic text-seccondary links"><h3>RÁPIDO.ES</h3></a>
         <p class="text-main">© 2021</p>
     </div>
-    </footer>
   </div>
+</footer>
