@@ -14,12 +14,20 @@ document.addEventListener('scroll', () =>{
     })
     document.addEventListener('scroll', () =>{
       let money = document.querySelector('#money');
-      if ( window.pageYOffset > 150 ) {
+      if ( window.pageYOffset > 190 ) {
         money.classList.add('money');
         money.classList.remove('money-back');
       } else {
         money.classList.remove('money');
         money.classList.add('money-back');
+      }
+    })
+    document.addEventListener('scroll', () =>{
+      let inserta = document.querySelector('#inserta');
+      if ( window.pageYOffset > 200 ) {
+        inserta.classList.add('animation-inserta');
+      } else {
+        inserta.classList.remove('animation-inserta');
       }
     })
 

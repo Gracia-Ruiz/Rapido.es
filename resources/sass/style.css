@@ -39,7 +39,7 @@ h1,h2,h3,h4,h5,.h1,.h2,.h3,.h4,.h5{
   font-family: 'IM Fell DW Pica', serif;
 }
 .bg-nav{
-  background-color: #3c787eab;
+  background-color: #67828565;
 }
 .logo:hover{
   transform: translateX(30px);
@@ -117,6 +117,30 @@ h1,h2,h3,h4,h5,.h1,.h2,.h3,.h4,.h5{
     transform: translateX(200px);
   }
 }
+.animation-h2{
+  animation: animation-h2 1s ease-in-out;
+}
+@keyframes animation-h2 {
+  0%{
+    transform: scale(0);
+  }
+  100%{
+    transform: scale(2);
+  }
+}
+.animation-comprar{
+  animation: animation-comprar 1s 1s ease-in-out backwards;
+}
+@keyframes animation-comprar {
+  0% {
+    transform: translateY(400px);
+    opacity: 0;
+}
+  100%{
+    transform: translateY(0px);
+    opacity: 1;
+}
+}
 .money{
   transform: translateY(0px);
   transition:1s;
@@ -125,10 +149,24 @@ h1,h2,h3,h4,h5,.h1,.h2,.h3,.h4,.h5{
   transform: translateY(-100px);
   opacity: 0;
 }
-.categoria:hover{
-   color: var(--accent--color)!important;
+
+.animation-inserta{
+  animation: animation-inserta 0.5s 0.5s ease-in-out backwards;
+}
+@keyframes animation-inserta {
+  0% {
+    transform: translateY(400px);
+    opacity: 0;
+}
+  100%{
+    transform: translateY(0px);
+    opacity: 1;
+}
 }
 .compra-atras{
   width: 100px;
   height: 100px;
+}
+.categoria:hover{
+  color: var(--accent--color)!important;
 }

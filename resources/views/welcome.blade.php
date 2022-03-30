@@ -5,10 +5,10 @@
         <div class="row">
             <div class="col-12 my-5 py-5">
                 <h1 class="text-center display-1 my-2 fst-italic text-seccondary animation-title">RÁPIDO.ES</h1>
-                <h2 class="text-center">{{__("¡La plataforma de compraventa más rápida!")}}</h2>
-                <h4 class="text-center">{{__("¿Qué te gustaría comprar?")}}</h4>
+                <h2 class="text-center animation-h2">{{__("¡La plataforma de compraventa más rápida!")}}</h2>
+                <h4 class="text-center animation-comprar">{{__("¿Qué te gustaría comprar?")}}</h4>
             </div>
-            @include('layouts._category')
+@include('layouts._category')
     </header>
     </div>
     <div class="container my-5 py-5">
@@ -16,7 +16,7 @@
             <div class="col-12 text-center">
                 <h3 class="py-3 display-6 money-back" id="money">
                     {{__("¿Quieres ganar dinero fácilmente? ¡Añade tu propio anuncio!")}}</h3>
-                <a type="button" href="{{route('ad.new')}}" class="btn box-radius btn-accent links btn-inserta">
+                <a type="button" href="{{route('ad.new')}}" class="btn box-radius btn-accent links btn-inserta" id="inserta">
                     <h4 class="fs-1">{{__("Inserta anuncio")}} <span class="mx-2">
                             <lord-icon src="https://cdn.lordicon.com/mecwbjnp.json" trigger="loop">
                             </lord-icon>
@@ -36,7 +36,7 @@
             <div class="col-12 col-md-4">
             <img src="/images/apoyo.gif" width="150px" alt="charla">
                 <h5><b class="text-seccondary fw-bold fs-1">{{__("¡COMUNICACIÓN!")}}</b>
-                    {{__("Si tienes alguna duda, NOSOTRO TE LA RESOLVEREMOS, contáctanos cuando sea necesario, siempre estamos preparados.")}}
+                    {{__("Si tienes alguna duda, NOSOTROS TE LA RESOLVEREMOS, contáctanos cuando sea necesario, siempre estamos preparados.")}}
                 </h5>
             </div>
             <div class="col-12 col-md-4">
