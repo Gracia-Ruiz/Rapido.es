@@ -1,6 +1,6 @@
 # Rapido.es.
 
-## Proyecto de tienda de segunda mano on-line.
+## Proyecto de tienda de segunda mano on-line. Construido con Laravel 8.
 Incluye relaciones, conexión a mysql, autentificación con fortify, conexión a api para análisis automático de anuncios, gestión de aceptación de anuncios, búsqueda full-text, crop de imágenes, llamada ajax para subida de imágenes y función de multi-lenguaje.
 
 ## Las conexiones a mysql se han realizado a través de Eloquent, y todo lo realizado se puede encontrar en la página oficial de [Laravel](https://laravel.com/docs/8.x/releases).
