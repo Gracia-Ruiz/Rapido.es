@@ -9,6 +9,8 @@ El análisis de los anuncios se realiza a través de **Google Cloud**, por lo qu
 ## Consideraciones:
 - Necesitamos una versión compatible de [PHP](https://laravel.com/docs/8.x/releases#support-policy).
 - Si estamos usando windows, tendremos que habilitar una serie de extensiones en nuestro archivo **php.ini**. No importa si no sabes cuáles son, laravel te arrojará un     error con el nombre exacto de la extensión.
+- Tener instalado **Composer**.
+- Tener instalado **Node.js**.
 - Para lanzar el proyecto en un servidor local sin necesidad de tener nada más instalado, podemos aprovechar el pequeño **Web Server** que trae php para desarrollo.
   Simplemente lo abrimos con el comando **php artisan serve**. 
 
